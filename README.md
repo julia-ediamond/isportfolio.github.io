@@ -17,9 +17,9 @@ The website features 3 pages: about, projects and contact with a form. It is bui
 - JavaScript to be added
 
 ## Acknowledgement
-She Codes Plus
-Bhp
-Spacecubed
+- She Codes Plus
+- Bhp
+- 
 
 
  
