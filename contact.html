@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
+    <script src="form.js"></script>
     <title>Portfolio of Iulia Sharnina</title>
 </head>
 <body>
@@ -28,28 +29,32 @@
 
 
     <div id="form-wrapper">
-    
-    <form action="https://formspree.io/f/xvodqkrn" method="post">
+    <form method="post">
+    <!-- <form action="https://formspree.io/f/xvodqkrn" method="post"> -->
 <div class="form-row">
     <label for="name">Name</label>
     <input name="name" id="name" type="text">
+    <p class="alert hidden">Not valid.</p>
 </div>
 <div class="form-row">
     <label for="lastname">Lastname</label>
     <input name="lastname" id="lastname" type="text">
+    <p class="alert hidden">Please enter your lastname.</p>
 </div>
 
 <div class="form-row">
     <label for="email">Email</label>
     <input name="email" id="email" type="email">
+    <p class="alert hidden">Please enter a valid email.</p>
 </div>
 <div class="form-row">
     <label for="message">Message</label>
     <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    <p class="alert hidden">Please enter a message.</p>
 </div>
-<div class="form-row">
+
     <button type="submit">Send</button>
-</div>
+
 
     </form>
 
@@ -62,5 +67,6 @@
         
     </div>
 </footer>
+
 </body>
 </html>

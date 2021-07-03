@@ -212,6 +212,16 @@ input:hover, textarea:hover {
     text-align: center;
 }
 
+.alert {
+    color: palevioletred;
+    font-size: 0.4em;
+}
+
+.alert.hidden {
+    display: block!important;
+    visibility: hidden;
+}
+
 /* projects */
 
 #projects-div {
